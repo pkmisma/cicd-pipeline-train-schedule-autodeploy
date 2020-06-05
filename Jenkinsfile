@@ -4,8 +4,8 @@
 pipeline {
     agent any
     environment {
-        //be sure to replace "sampriyadarshi" with your own Docker Hub username
-        DOCKER_IMAGE_NAME = "sampriyadarshi/train-schedule"
+        //be sure to replace "pkmisma" with your own Docker Hub username
+        DOCKER_IMAGE_NAME = "pkmisma/train-schedule"
         CANARY_REPLICAS = 0
     }
     stages {
